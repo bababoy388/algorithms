@@ -10,7 +10,6 @@ def find_missing_number(nums: list[int]) -> int:
     an = nums[-1]
 
     S = (n / 2) * (a1 + an)
-
     actual_sum = sum(nums)
 
     return int(S - actual_sum)
